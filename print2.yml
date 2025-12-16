@@ -1,0 +1,7 @@
+---
+- name: print message 2
+  hosts: all
+  tasks:
+  - name: print message 2
+    debug: 
+      msg: print message 2
