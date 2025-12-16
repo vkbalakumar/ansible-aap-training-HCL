@@ -1,6 +1,6 @@
 ---
 - name: sample playbook
-  hosts: 34.214.41.163
+  hosts: all
   tasks:
   - name: print hello world
     debug:
